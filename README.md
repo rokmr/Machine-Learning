@@ -9,5 +9,6 @@ Implementation of Deep Neural Network with all the basic operation from the scra
 
 # Resources
 [CS7015: Deep Learning by Mitesh Khapra](http://cse.iitm.ac.in/~miteshk/CS7015_2018.html)
+[AWESOME RNN](https://github.com/kjw0612/awesome-rnn)
 
 
