@@ -4,7 +4,7 @@
 Implementation of Deep Neural Network with all the basic operation from the scratch.
 
 ## Vanilla GD, SGD, Mini-Batch GD
-![batch_stochastic_mini](https://raw.githubusercontent.com/rokmr/Machine-Learning/firstBranch/images/batch_stochastic_mini.jpeg)
+![batch_stochastic_mini](assets/batch_stochastic_mini.jpeg)
   
 
 # Resources
