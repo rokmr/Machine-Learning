@@ -1,5 +1,24 @@
 # Machine Learning 
 
+## TODO
+- [ ] Linear Regression
+- [ ] Logistic Regression
+- [ ] SVM
+- [ ] Decision Tree
+- [ ] Random Forest
+- [ ] Boosting Trees
+- [ ] Neural Network
+- [ ] Dimensionality Reduction
+- [ ] k-NN
+- [ ] Clustering
+- [ ] Naive Bayes
+- [ ] CV
+- [ ] NLP
+- [ ] Recommendation System
+- [ ] Ranking
+- [ ] Time Series
+- [ ] GAN
+
 # **Deep Neural Network** - 
 Implementation of Deep Neural Network with all the basic operation from the scratch.
 
