@@ -1,23 +1,36 @@
 # Machine Learning 
 
+## Envirnoment Setup
+```bash
+conda create -n ml python
+conda activate ml
+pip install -r requirements.txt
+```
+
 ## TODO
-- [ ] Linear Regression
-- [ ] Logistic Regression
-- [ ] SVM
-- [ ] Decision Tree
-- [ ] Random Forest
+### Phase 1
+- [ ] Linear Regression (Matrix)
+- [X] Linear Regression (Gradient)
+- [X] Logistic Regression
+- [X] Naive Bayes
+- [X] k-NN
+- [X] k-means
+- [X] Clustering
+- [X] PCA
+- [X] LDA
+- [X] SVM
+
+### Phase 2
+- [X] Decision Tree
+- [X] Adaboost
+- [X] Random Forest
 - [ ] Boosting Trees
+
+# Phase 3
+- [X] Perceptron
 - [ ] Neural Network
-- [ ] Dimensionality Reduction
-- [ ] k-NN
-- [ ] Clustering
-- [ ] Naive Bayes
-- [ ] CV
-- [ ] NLP
-- [ ] Recommendation System
-- [ ] Ranking
-- [ ] Time Series
-- [ ] GAN
+- [ ] CNN
+
 
 # **Deep Neural Network** - 
 Implementation of Deep Neural Network with all the basic operation from the scratch.
