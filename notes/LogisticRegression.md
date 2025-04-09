@@ -43,11 +43,11 @@ $\tau$ is decided according to problem statement.
 ## Multi-Class (N)
 1. One-vs-all: We need to have N models 
 
-    $pred = \argmax_{i} f_{i}(x)$
+    $pred = \text{arg max}_{i} f_{i}(x)$
 
 2. One-vs-one: We need to have $\binom{N}{2}$ models, where each model is trained to distinguish between a pair of classes. For N classes, this results in $\frac{N(N-1)}{2}$ binary classifiers. The prediction is made by majority voting across all pairwise comparisons:
 
-    $pred = \argmax_{i} \sum_{j \neq i} \mathbb{I}(f_{ij}(x) = i)$
+    $pred = \text{arg max}_{i} \sum_{j \neq i} \mathbb{I}(f_{ij}(x) = i)$
 
     where $f_{ij}(x)$ is the binary classifier for classes i and j, and $\mathbb{I}$ is the indicator function.
 
