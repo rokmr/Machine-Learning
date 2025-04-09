@@ -13,11 +13,11 @@ pip install -r requirements.txt
 | 2     | Linear Regression (Gradient)| [notes](notes/LinearRegression.md)         | [code](src/linearRegression.py)           | ✓      |
 | 3     | Logistic Regression         | [notes](notes/LogisticRegression.md)       | [code](src/logisticRegression.py)         | ✓      |
 | 4     | Naive Bayes                 | [notes](notes/NaiveBayes.md)               | [code](src/naiveBayes.py)                 | ✓      |
-| 5     | k-NN                        | [notes](notes/KNN.md)                      | [code](src/knn.py)                        | ✓      |
-| 6     | k-means                     | [notes](notes/KMeans.md)                   | [code](src/kmeans.py)                     | □      |
-| 7     | Clustering                  | [notes](notes/Clustering.md)               | [code](src/clustering.py)                 | □      |
-| 8     | PCA                         | [notes](notes/PCA.md)                      | [code](src/pca.py)                        | □      |
-| 9     | LDA                         | [notes](notes/LDA.md)                      | [code](src/lda.py)                        | □      |
+| 5     | PCA                         | [notes](notes/PCA.md)                      | [code](src/pca.py)                        | ✓      |
+| 6     | LDA                         | [notes](notes/LDA.md)                      | [code](src/lda.py)                        | □      |
+| 7     | k-NN                        | [notes](notes/KNN.md)                      | [code](src/knn.py)                        | ✓      |
+| 8     | k-means                     | [notes](notes/KMeans.md)                   | [code](src/kmeans.py)                     | □      |
+| 9     | Clustering                  | [notes](notes/Clustering.md)               | [code](src/clustering.py)                 | □      |
 | 10    | SVM                         | [notes](notes/SVM.md)                      | [code](src/svm.py)                        | □      |
 | 11    | Decision Tree               | [notes](notes/DecisionTree.md)             | [code](src/decisionTree.py)               | □      |
 | 12    | Adaboost                    | [notes](notes/Adaboost.md)                 | [code](src/adaboost.py)                   | □      |

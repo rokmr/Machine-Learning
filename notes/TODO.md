@@ -4,3 +4,4 @@
 - [ ] (Overfitting) Reduce the number of features: We can use some feature selection methods – filter-based (chi-square), wrapper based (Recursive Feature Elimination) or embedded 
 like Lasso regularization. 
 - [ ] SMOTE(data imbalance)
+- number of principle component (PCA)
