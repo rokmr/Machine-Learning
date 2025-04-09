@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 | S.No. | Topic                       | Notes                                      | Code                                      | Status |
 |-------|-----------------------------|--------------------------------------------|-------------------------------------------|--------|
-| 1     | Linear Regression (Matrix)  | [notes](notes/LinearRegresion.md)          | [code](src/linearRegressionClosedForm.py) | ✓      |
+| 1     | Linear Regression (Matrix)  | [notes](notes/LinearRegression.md)         | [code](src/linearRegressionClosedForm.py) | ✓      |
 | 2     | Linear Regression (Gradient)| [notes](notes/LinearRegression.md)         | [code](src/linearRegression.py)           | ✓      |
 | 3     | Logistic Regression         | [notes](notes/LogisticRegression.md)       | [code](src/logisticRegression.py)         | □      |
 | 4     | Naive Bayes                 | [notes](notes/NaiveBayes.md)               | [code](src/naiveBayes.py)                 | □      |
