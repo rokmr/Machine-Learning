@@ -1,4 +1,4 @@
-# Logisstic Regression
+# Logistic Regression
 It is used for te classification problem. It uses linear regressing equaition to predict the class probabilities.
 
 Equation:

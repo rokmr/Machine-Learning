@@ -12,7 +12,7 @@ pip install -r requirements.txt
 | 1     | Linear Regression (Matrix)  | [notes](notes/LinearRegression.md)         | [code](src/linearRegressionClosedForm.py) | ✓      |
 | 2     | Linear Regression (Gradient)| [notes](notes/LinearRegression.md)         | [code](src/linearRegression.py)           | ✓      |
 | 3     | Logistic Regression         | [notes](notes/LogisticRegression.md)       | [code](src/logisticRegression.py)         | ✓      |
-| 4     | Naive Bayes                 | [notes](notes/NaiveBayes.md)               | [code](src/naiveBayes.py)                 | □      |
+| 4     | Naive Bayes                 | [notes](notes/NaiveBayes.md)               | [code](src/naiveBayes.py)                 | ✓      |
 | 5     | k-NN                        | [notes](notes/KNN.md)                      | [code](src/knn.py)                        | □      |
 | 6     | k-means                     | [notes](notes/KMeans.md)                   | [code](src/kmeans.py)                     | □      |
 | 7     | Clustering                  | [notes](notes/Clustering.md)               | [code](src/clustering.py)                 | □      |
