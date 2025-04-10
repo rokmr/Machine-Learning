@@ -17,7 +17,7 @@ pip install -r requirements.txt
 | 6     | LDA                         | [notes](notes/LDA.md)                      | [code](src/lda.py)                        | ✓      |
 | 7     | k-NN                        | [notes](notes/KNN.md)                      | [code](src/knn.py)                        | ✓      |
 | 8     | k-means                     | [notes](notes/KMeans.md)                   | [code](src/kmeans.py)                     | ✓      |
-| 9     | SVM                         | [notes](notes/SVM.md)                      | [code](src/svm.py)                        | □      |
+| 9     | SVM                         | [notes](notes/SVM.md)                      | [code](src/svm.py)                        | ✓      |
 | 10    | Decision Tree               | [notes](notes/DecisionTree.md)             | [code](src/decisionTree.py)               | □      |
 | 11    | Adaboost                    | [notes](notes/Adaboost.md)                 | [code](src/adaboost.py)                   | □      |
 | 12    | Random Forest               | [notes](notes/RandomForest.md)             | [code](src/randomForest.py)               | □      |
