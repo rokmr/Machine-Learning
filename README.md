@@ -1,5 +1,7 @@
 # Machine Learning 
 
+This repository contains implementations of fundamental machine learning algorithms from scratch, along with detailed notes explaining the mathematical concepts and implementation details. The project serves as both a learning resource and a practical reference for understanding core ML algorithms.
+
 ## Envirnoment Setup
 ```bash
 conda create -n ml python
@@ -27,15 +29,5 @@ pip install -r requirements.txt
 | 16    | CNN                         | [notes](notes/CNN.md)                      | [code](src/cnn.py)                        | □      |
 
 
-# **Deep Neural Network** - 
-Implementation of Deep Neural Network with all the basic operation from the scratch.
-
-## Vanilla GD, SGD, Mini-Batch GD
-![batch_stochastic_mini](assets/batch_stochastic_mini.jpeg)
-  
-
-# Resources
-[CS7015: Deep Learning by Mitesh Khapra](http://cse.iitm.ac.in/~miteshk/CS7015_2018.html)
-[AWESOME RNN](https://github.com/kjw0612/awesome-rnn)
-
-
+# References
+All the references are metioned [here](RESOURCES.md)
