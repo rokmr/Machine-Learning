@@ -14,7 +14,7 @@ pip install -r requirements.txt
 | 3     | Logistic Regression         | [notes](notes/LogisticRegression.md)       | [code](src/logisticRegression.py)         | ✓      |
 | 4     | Naive Bayes                 | [notes](notes/NaiveBayes.md)               | [code](src/naiveBayes.py)                 | ✓      |
 | 5     | PCA                         | [notes](notes/PCA.md)                      | [code](src/pca.py)                        | ✓      |
-| 6     | LDA                         | [notes](notes/LDA.md)                      | [code](src/lda.py)                        | □      |
+| 6     | LDA                         | [notes](notes/LDA.md)                      | [code](src/lda.py)                        | ✓      |
 | 7     | k-NN                        | [notes](notes/KNN.md)                      | [code](src/knn.py)                        | ✓      |
 | 8     | k-means                     | [notes](notes/KMeans.md)                   | [code](src/kmeans.py)                     | □      |
 | 9     | Clustering                  | [notes](notes/Clustering.md)               | [code](src/clustering.py)                 | □      |

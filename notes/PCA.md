@@ -7,6 +7,7 @@ High dimensional data could be a problem:
 Method to resolve : PCA, LDA, t-SNE(non-linear correlation), AutoEncoder
 
 ## PCA 
+It is `unspervised`
 **Assumption:**
 
 PCA needs a linear correlation  between all variables  (It should not have  non-linear correlations )
