@@ -5,3 +5,4 @@
 like Lasso regularization. 
 - [ ] SMOTE(data imbalance)
 - number of principle component (PCA)
+- [ ] GMM code
