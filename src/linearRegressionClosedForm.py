@@ -1,9 +1,7 @@
 import numpy as np
 
 class LinearRegressionClosedForm:
-    def __init__(self, learning_rate=0.001, n_iters=1000):
-        self.lr = learning_rate
-        self.n_iters = n_iters
+    def __init__(self):
         self.weights = None
         self.bias = None
 
@@ -39,7 +37,7 @@ if __name__ == "__main__":
         X, y, test_size=0.2, random_state=1234
     )
 
-    regressor = LinearRegressionClosedForm(learning_rate=0.01, n_iters=1000)
+    regressor = LinearRegressionClosedForm()
     regressor.fit(X_train, y_train)
     predictions = regressor.predict(X_test)
 
