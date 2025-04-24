@@ -31,11 +31,12 @@ Simplifying:
 $S_B w(w^T S_W w) = S_W w(w^T S_B w)$
 
 $S_W^{-1}S_B w = \frac{(w^T S_B w)}{(w^T S_W w)} w$
+
 $S_W^{-1}S_B w = \lambda w$
 
 ## Implementation Steps
-1. Calculate the within-class scatter matrix (SW)
-2. Calculate the between-class scatter matrix (SB)
+1. Calculate the within-class scatter matrix ($S_W$)
+2. Calculate the between-class scatter matrix ($S_B$)
 3. Compute eigenvalues and eigenvectors of $S_W^{-1}S_B$
 4. Select top k eigenvectors based on eigenvalues
 5. Transform the data using selected eigenvectors

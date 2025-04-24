@@ -13,7 +13,7 @@ The denominator $P(B)$ is omitted since it's constant across classes and doesn't
 
 $\log P(A|B) = \log P(B|A) + \log P(A) $
 
-$ posterior = posterior + prior$
+$posterior = posterior + prior$
 
 This matches the implementation shown in the code where:
 - $\log P(A)$ is the prior probability

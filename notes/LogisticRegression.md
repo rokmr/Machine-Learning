@@ -19,11 +19,11 @@ $y = \frac{1}{1+ e^{-(wx+b)}}$
 - Linear relationship with log odds (not the outcome itself)
 
 ## Effect of Outlier
-Since here we focus on finding the decision boundry that linearly seperate the classes. So we mostly focus on the points which are closer to the boundry. Therefore, otlier will have very less effect here.
+Since here we focus on finding the decision boundry that linearly seperate the classes. So we mostly focus on the points which are closer to the boundry. Therefore, outlier will have very less effect here.
 
 ## Logistic Regression as Maximum Likelihood Estimation(MLE)
 
-Assuming the Bernoulli distribution (i.e., binary classification). Let, $y \in {0,1}$ if $p$ is the probability of class as 1. Then according to MLE we need to maximize $p^y$ if class is 1 and $(1-p)^{(1-y)}$ if class is 0.
+Assuming the Bernoulli distribution (i.e., binary classification). Let, $y \in \{0,1\}$ if $p$ is the probability of class as 1. Then according to MLE we need to maximize $p^y$ if class is 1 and $(1-p)^{(1-y)}$ if class is 0.
 
 $L = \Pi_{i=1}^{N} p_i^{y_i} (1-p_i)^{(1-y_i)}$
 
