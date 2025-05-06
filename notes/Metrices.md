@@ -37,30 +37,15 @@ $Precision = \frac{TP}{TP+FP}$
 Out of all the True `observations` how many were actually True.
 $Recall = \frac{TP}{TP+FN}$
 
-<div class="row">
-  <div class="column">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/700px-Precisionrecall.svg.png" width="400" height="300" />
-  </div>
-  <div class="column">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PrecisionrecallDogExample.svg/800px-PrecisionrecallDogExample.svg.png" width="400" height="300" />
+<div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/700px-Precisionrecall.svg.png" height="400" >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PrecisionrecallDogExample.svg/800px-PrecisionrecallDogExample.svg.png" height="400">
   </div>
 </div>
 
-<style>
-.row {
-  display: flex;
-  justify-content: center;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-}
-</style>
-
 ## PR Curve
 <div align='center'>
-    <img src='https://classeval.wordpress.com/wp-content/uploads/2015/06/precision-recall-balanced-imbalanced.png'>
+    <img src="https://classeval.wordpress.com/wp-content/uploads/2015/06/precision-recall-balanced-imbalanced.png" height=200 width=450>
 </div>
 
 ## F1-score 
@@ -75,7 +60,7 @@ The ROC is a probability curve and the area under
 the curve can be thought of as the degree of separability between the two classes. 
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Roc_curve.svg/1920px-Roc_curve.svg.png" width="400" height="300" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Roc_curve.svg/1920px-Roc_curve.svg.png" height=200 >
 </div>
 
 ## Pixel Accuracy
@@ -102,7 +87,7 @@ Assume two case :
 2. Intersion is large but the bbox are small bbox then possibly they are dipicting different object.
 
 <div>
-<img src='../assets/IoU.png'>
+<img src='../assets/IoU.png' height=200 width=450>
 </div>
 
 ## Dice Coefficient
@@ -118,18 +103,18 @@ $Dice = \frac{2 \times IoU}{1 + IoU}$
 We  don't need all the object proposals. We only want to keep the best one.
 
 <div>
-<img src='https://thepythoncode.com/media/articles/non-maximum-suppression-using-opencv-in-python/non-max-suppression.webp'>
+<img src='https://thepythoncode.com/media/articles/non-maximum-suppression-using-opencv-in-python/non-max-suppression.webp' height=200>
 </div>
 
 <div>
-<img src='../assets/NMSAlgo.png'>
+<img src='../assets/NMSAlgo.png'height=200>
 </div>
 
 
-### [$\lambda_{NMS}$](https://arxiv.org/pdf/1511.06437)
+### [&lambda;<sub>NMS</sub>](https://arxiv.org/pdf/1511.06437)
 Do not allow the bbos if they are overlapping more than $\lambda_{NMS}$ threshold.
 <div>
-<img src='../assets/NMSIssue.png'>
+<img src='../assets/NMSIssue.png' height=200>
 </div>
 
 Narrrow Threshold (High IoU) : Low Precision (More False Positive)
